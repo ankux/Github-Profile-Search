@@ -136,3 +136,90 @@ body{
     flex-direction: column;
     align-items: center;
 }
+
+
+
+@media (max-width: 500px) {
+    .container {
+        font-size: 16px;
+    }
+
+    #heading{
+        font-size: 2.5rem;
+    }
+
+    .search {
+        width: 60%;
+        
+    }
+
+    #searchInput{
+        border: 2px solid black;
+    }
+
+    #profileContainer {
+        width: 90%; 
+    }
+
+    .profile-box {
+        width: 100%; 
+        padding: 2rem; 
+    }
+
+    .avatar {
+        height: 8rem;
+        width: 8rem;
+    }
+
+    .avatar img {
+        height: 8rem;
+        width: 8rem;
+    }
+
+    .top-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem; 
+    }
+
+    .left {
+        text-align: center;
+    }
+
+    .left h1 {
+        font-size: 1.8rem;
+    }
+
+    #github-btn {
+        font-size: 1.3rem;
+        font-weight: 500;
+        
+    }
+
+    #github-btn i {
+        font-size: 1.65rem;
+        font-weight: 500;
+    }
+
+    .about h2 {
+        font-size: 1.3rem;
+    }
+
+    .about p {
+        font-size: 1.4rem;
+    }
+
+    .status {
+        flex-direction: row; 
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .status-item h3 {
+        font-size: 1.3rem;
+    }
+
+    .status-item p {
+        font-size: 1.5rem;
+    }
+}
